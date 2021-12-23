@@ -26,9 +26,6 @@ let db = new sqlite3.Database('mypatients.db', (err) => {
       
       
       db.run(insert, '["treatId: "LHM912","treatCourseId":"40644", "type": "short term", "category": "calf injury", "name": "Omar Adnan", "startDate": "13-10-2021"');
-
-    
-    
     
     }
   });
