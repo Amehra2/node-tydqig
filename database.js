@@ -1,4 +1,5 @@
 var sqlite3 = require('sqlite3').verbose()
+//in order to retriever the patient data, we type //patients at the end.
 
 // open the database : I changed from mybooks.db to mypatients.db to patients
 let db = new sqlite3.Database('mypatients.db', (err) => {
